@@ -1,0 +1,220 @@
+@import url("font/stylesheet.css");
+*{margin:0;padding:0;}
+body{font-size:0.95em;font-family:'OpenSansCondensedLight';}
+h1,h2,h3,h4,h5,h6 {
+	letter-spacing: 0px;
+}
+
+h1 {font-size: 1.5em;}h2 {font-size: 1.4em;}h3 {font-size: 1.3em;}h4 {font-size: 1.2em;}h5 {font-size: 1.1em;}h6 {font-size: 1.0em;}
+a,a:visited{color: #fff; text-decoration: none;}
+
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	height: 220px;
+	background: url(../images/bg_header.png) no-repeat;
+}
+
+#header .logos{
+	padding: 30px 0 0 10px;
+}
+
+#header .logos img{ display: inline-block; margin: 0 5px;}
+
+#header .logos .separator{
+	display:inline-block;
+	width:1px;
+	height: 78px;
+	/*border-right:1px solid #969696;*/
+}
+
+#main_content{ 
+	position: relative;
+	height: 744px;
+}
+
+/***BACKGROUND***/
+.bg_1{background: url(../images/bg_1.png) no-repeat;}
+.bg_2{background: url(../images/bg_2.png) no-repeat;}
+.bg_3{background: url(../images/bg_3.png) no-repeat;}
+.bg_4{background: url(../images/bg_4.png) no-repeat;}
+.bg_5{background: url(../images/bg_5.png) no-repeat;}
+.bg_6{background: url(../images/bg_6.png) no-repeat;}
+.bg_7{background: url(../images/bg_7.png) no-repeat;}
+
+.title{
+	position: absolute; 
+	right: 1px;
+	top: -55px;
+	text-align: right;
+	line-height: 35px;
+}
+
+.title h1, .title h2{ margin: 0; letter-spacing: -1px; }
+
+.title .t1{color:#F8AD3B; font-size: 32px;font-weight: 800;}
+.title .t2{color:#037093; font-size: 32px;font-weight: 800;}
+.title .t3{color:#F8AD3B; font-size: 28px;font-weight: 800;}
+
+.listfile_content{ 
+	position: absolute;
+	right: 0;
+	bottom: 165px;
+	width: 355px;
+	height: 320px;
+	padding: 10px 15px;
+}
+
+.listfile_content ul{ margin: 5px 0 0 0; padding: 0; list-style-type: none; }
+.listfile_content ul li{ margin: 5px 0; padding-left:15px; background: url(../images/vineta.png) no-repeat 1% 50%; }
+
+.footer{ 
+	position: absolute;
+	right: 0;
+	width: 440px;
+	padding: 5px 10px;
+	bottom: 5px;
+	text-align: right;
+}
+.footer p{ font-size: 14px; color:#333; }
+
+.navigation{
+    margin: 0px auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item,
+.navigation .item_active{
+    position:absolute;
+}
+
+.i_1{
+	top: 35px;
+	left: 20px;
+}
+.i_2{
+   top: -5px;
+   left: 180px;
+}
+.i_3{
+   	top: -16px;
+	left: 340px;
+}
+
+.i_4{
+   	top: 5px;
+	left: 520px;
+}
+
+.i_5{
+   	top: 55px;
+	left: 680px;
+}
+
+.i_6{
+	top: 140px;
+	left: 820px;
+}
+
+
+
+.i_3 a.icon{
+    background:transparent url(../images/iconos-07.png) no-repeat 50% 50%;
+}
+.i_4 a.icon{
+    background:transparent url(../images/Rt.png) no-repeat 50% 50%;
+}
+.i_5 a.icon{
+    background:transparent url(../images/iconos-05.png) no-repeat 50% 50%;
+}
+.i_6 a.icon{
+    background:transparent url(../images/iconos-08.png) no-repeat 50% 50%;
+}
+
+
+.i_3 a.active{
+    background:transparent url(../images/iconos-02.png) no-repeat 50% 50%;
+}
+.i_4 a.active{
+    background:transparent url(../images/Rt-inv.png) no-repeat 50% 50%;
+}
+.i_5 a.active{
+    background:transparent url(../images/iconos-04.png) no-repeat 50% 50%;
+}
+.i_6 a.active{
+    background:transparent url(../images/iconos-01.png) no-repeat 50% 50%;
+}
+
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    /*opacity:0.1;*/
+}
+.item_active img.circle{
+	position:absolute;
+	top:0px;
+    left:0px;
+	width:83px;
+    height:83px;
+}
+.navigation .item_active img{
+	top : -26px;
+	left : -16px;
+}
+
+
+.item h2,
+.item_active h2{
+	position: absolute;
+	width: 110px;
+	color: #fff;
+	font-size: 16px;
+	top: 55px;
+	left: -25px;
+	text-shadow: 2px 0px 4px #555;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.item h2.active,
+.item_active h2.active{
+    /*color:#fff;*/
+    text-shadow:2px 0px 4px #000;
+    /*display:block;*/
+}
+
+.list-item{
+	font-size: 1rem;
+}
+
+.footer-text{
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+#header .logos{
+	padding-top:25px;
+}
+
+.logos img{
+	width:200px;
+}
