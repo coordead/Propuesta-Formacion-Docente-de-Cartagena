@@ -17,7 +17,7 @@
         <div id="container">
             <div id="header">
                 <div class="logos">
-                    <!--img src="images/logo-mineducacion.png" alt="logoCPE"/--> 
+                    <img src="images/logo-mineducacion.png" alt="logoCPE"/> 
                     <span class="separator"></span>
                     <img src="images/LogUTB.png" alt="logoUTB" />
                     <span class="separator"></span>
@@ -28,41 +28,37 @@
 
                 <!-- TITLE -->
                 <div class="title">
-                    <h1 class="t1">Plan de Formación Docente De Cartagena 2017 - 2019</h1>
-                    <h1 class="t2">Cartagena de Indias D.T. y C.</h1>
-                    <h1 class="t1">Mayo 2017</h1>
+                    <h1 class="t1">Propuesta Formación Docente De Cartagena 2017</h1>
+                    <h1 class="t2">Cartagena Distrito Turístico y Cultural</h1>
                     
                 </div>
 
                 <!--MENU NAVIGATION -->
                 <div class="navigation" id="nav">
-                    <div class="item i_2">
-                        <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
-                        <a href="recursos/1-PROPUESTA FONDO FEM-CARTAGENA.pdf"  target="_blank" class="icon"></a>
-                        <h2>Didácticas De Las Disciplinas Escolares</h2>
-                    </div>
                     <div class="item i_3">
                         <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
                         <a href="recursos/1-PROPUESTA FONDO FEM-CARTAGENA.pdf"  target="_blank" class="icon"></a>
-                        <h2>Cátedra De Paz Y Educación Para El Post Acuerdo</h2>
+                        <h2>Propuesta</h2>
                     </div>
                     <div class="item i_4">
                         <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
-                        <a href="recursos/1-PROPUESTA FONDO FEM-CARTAGENA.pdf"  target="_blank" class="icon"></a>
-                        <h2>Pedagogía Diferencial</h2>
+                        <a href="recursos/CARTA INTENC CTGNA FIRMA.pdf"  target="_blank" class="icon"></a>
+                        <h2>Carta de Intención</h2>
                     </div>
                     <div class="item i_5">
                         <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
-                        <a href="recursos/CARTA INTENC CTGNA FIRMA.pdf"  target="_blank" class="icon"></a>
-                        <h2>Didáctica De La Educacion Ambiental</h2>
-                    </div>
-                    <div class="item i_6">
-                        <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
                         <a href="recursos/FORMA FORTA ESTUDIANTES CTAGENA  articles-356209.xls"  target="_blank" class="icon"></a>
-                        <h2>Formación En Patrimonio Y Cultura</h2>
+                        <h2>Formulario de Inscripción</h2>
                     </div>
-                   
-                 </div>
+
+                   item i_6">
+                        <img src="images/bullet.png" alt="" width="83" height="83" class="circle"/>
+                        <a href="#"  class="icon"></a>
+                        <h2>PEI-Instituciones Educativas</h2>
+                    </div>
+
+                    
+                </div>
 
                 <!--LINK FILES -->
                 <div id="Links" class="listfile_content">
